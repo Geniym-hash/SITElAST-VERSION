@@ -1,0 +1,23 @@
+{% extends "main/layout.html" %}
+{% load static %}
+{% block content %}
+<div class="aios">
+    <h1>Млечный Путь</h1>
+    <img src="{% static 'main/img/21 (2).jpg' %}">
+    <p> Галактика (Млечный Путь) — это гигантская звёздная система, в которую входят Солнце и практически все звёзды, 
+        видимые на небе невооружённым глазом и в небольшие телескопы (за исключением редких сверхновых, вспыхивающих в соседних галактиках).</p>
+</head>
+<body>
+    <button onclick="window.location.href='https://ru.wikipedia.org/wiki/Млечный_Путь';">
+        Википедия
+    </button>
+    <h1>Солнечная система</h1>
+    <img src="{% static 'main/img/art.jpg' %}">
+    <p> Планетная система, включающая в себя центральную звезду Солнце и все естественные космические объекты на гелиоцентрических орбитах.</p>
+</head>
+<body>
+    <button onclick="window.location.href='https://ru.wikipedia.org/wiki/Солнечная_система';">
+        Википедия
+    </button>
+</div>
+{% endblock %}
